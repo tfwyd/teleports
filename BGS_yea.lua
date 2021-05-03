@@ -100,7 +100,7 @@
         end)
 
        BuyEgg.MouseButton1Click:Connect(function()
-      game.ReplicatedStorage.NetworkRemoteEvent:FireServer("PurchaseEgg", AutoEggTB.Text)
+      game.ReplicatedStorage.NetworkRemoteEvent:FireServer("PurchaseEgg", BuyEggTB.Text)
   end)
  end
 end
